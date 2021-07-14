@@ -1,0 +1,142 @@
+
+<header id="header">
+ 
+  <nav id="nav-bar">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#services" class="nav-link">Services</a>
+    <a href="#contact-us" class="nav-link">Contact Us</a>
+  </nav>
+  <div id="container">
+  <h1 id="head"> Kalaasala Carpenters</h1>
+    <img id="header-img" src="https://st2.depositphotos.com/47121138/45840/v/380/depositphotos_458400750-stock-illustration-carpenter-logo-vector-vintage-illustration.jpg" alt="logo" width="200px" >
+    <p id="para">Carpenters construct, erect, install, and repair structures and fixtures made from wood and other materials. Carpenters are involved in many different kinds of construction, from the building of highways and bridges to the installation of kitchen cabinets.</p>
+  </div>
+</header>
+<div class="formeh">
+  <form id="form" action="https://www.freecodecamp.com/email-submit" >
+    <input type="email" name="email" id="email" placeholder="Enter your Email Address......">
+    <input type="submit" id="submit" class="button btn"></input>
+</div>
+  <section >
+  <div class="video">
+    <h1>One of Our service</h1>
+   <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </section>
+  <div class="cards">
+<div id="home">
+  <h2> About us </h2>
+ <p>With over 20 years of experience in the carpentry trade, we provide workmanship for the domestic and commercial markets. In need of a new wardrobe, kitchen installation, an attic renovation or any other skilled woodwork? Look no further! </p>
+</div>
+  <div id="services">
+    <h2>Services We offer.!</h2>
+      <p>All internal and external carpentry  // Handmade furniture  // Complete refurbishment // Property maintenance  // Finish custom carpentry  // Much more...</p>
+    </div>
+      <div id="contact-us">
+        <h2> Phone </h2>
+        <p>Call Now: 1-800-000-0000 </p>
+      </div>
+  </div>
+
+
+CSSSSS
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+ h1{
+  font-family:Roboto;
+}
+h2{
+  font-family:Roboto;
+  font-weight:9000px;
+}
+body{
+  font-family:Poppins;
+}
+nav{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+#nav-bar{
+  width:100%;
+  background-color:rgb(0, 255, 128);
+  text-align:center;
+  box-shadow:3px 2px #888888;
+
+}
+.nav-link{
+  
+  text-decoration:none;
+  margin: 0px 20px;
+  color: black;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color:red;
+}
+#container{
+  text-align:center;
+  }
+#btn{
+  border-radius=40px;
+}
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn{
+  border-radius: 4px;
+}
+.formeh  {
+ text-align:center;
+  background-color:rgba(136, 210, 144, 0.4);
+}
+.formeh #email{
+  border-radius:4px;
+  width:200px;
+  height:25px;
+  
+}
+.video{
+  text-align:center;
+}
+iframe{
+  margin-bottom:30px;
+}
+.cards{
+  display:flex;
+  margin-right:0px;
+  text-align:center;
+}
+.cards h2{
+  font-size:20px;
+}
+.cards p{
+  font-size:12px;
+}
+.cards #home{
+   box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
+   width:45%;
+}
+.cards #services{
+   box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
+  width:40%;
+}
+.cards #contact-us{
+  width:300px;
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
+  }
+@media(max-width:480px){
+  .cards{
+    width:100%;
+  }
+}
